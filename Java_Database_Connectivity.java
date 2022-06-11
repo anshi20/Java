@@ -46,7 +46,7 @@ class JDBCTest{
          System.out.println("Statement Not created!!");
      }
      
-     //Executing ResultSet commands
+     //Executing ResultSet commands  --  Displaying data from database
      try
      {
          ResultSet rs = st.executeQuery("select * from emp");
